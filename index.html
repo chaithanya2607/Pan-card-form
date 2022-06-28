@@ -17,10 +17,6 @@
         *{
             margin:0px;
         }
-        div{
-            margin:20px 20px 20px 20px;
-        }
-       
     </style>
 </head>
 <body>
@@ -29,7 +25,7 @@
     <!-- heading+table start -->
     <div>
         <!-- heading start -->
-         <div style="background-color:brown ;color:white;text-align:center">
+         <div style="background-color:brown ;color:white;text-align:center;margin:10px">
             <h4>Request For New PAN Card or/And Changes for PAN Data</h4>
             <p>Fields marked with <span>*</span>(asterisk are mandatory).To avoid mistakes.
                  Please refer<u style="color:orange"> guidelines</u>  and <u style="color:orange"> instructions</u>.</p>
@@ -37,7 +33,7 @@
         <!-- heading end -->
         <!-- table start -->
         <div>
-         <table style="width:75% ; font-weight:bold">
+         <table style="width:80% ; font-weight:bold;margin:10px">
             <tr>
                 <td></td>
                 <td colspan="2">
@@ -483,6 +479,7 @@
                     <input type="text" name="" id="" style="width:10cm">
                     <label for="" name="" id="">,the applicant in the capacity of </label>
                     <select style="width:5cm"><option>--Please Select--</option></select>
+                   <select style="width:5cm"></select>
                     <label for="" name="" id="">do hereby declare that what is stated above is true to the best of my information and belief.</label><br><br>
                     <label for="" name="" id="">I have enclosed</label>
                     <input type="text" name="" id="" style="width:2cm">
@@ -516,6 +513,15 @@
                    <label for=""style="font-weight:lighter">as proof of date of birth and</label> 
                    <select style="width:10cm"><option>--Please Select--</option></select>
                    <label for=""style="font-weight:lighter">as proof of PAN allotted.</label>
+                   <label for="">I/We have enclosed</label><br>
+                   <select style="width:38cm" ></select>
+                   <label for="">as proof of identity,</label>
+                   <select style="width:30cm"></select>
+                   <label for="">as proof of address,</label><br>
+                   <select style="width:35cm"></select>
+                   <label for="">as proof of date of birth and</label> 
+                   <select style="width:10cm"></select>
+                   <label for="">as proof of PAN allotted.</label>
                 </td>
             </tr>
             <tr>
@@ -569,7 +575,7 @@
         </div>
         <!-- table end -->
     </div>
-    <div>
+    <div style="margin:10px">
     <label for="">For Paperless PAN Application</label>
     <label for="">Yes</label>
     <input type="radio" name="what" id="">
@@ -587,6 +593,7 @@
     <input type="file" name="file" id="file" style="margin-left:11.86cm">   <br>
     <button>Fetch from DigiLocker</button><br>
     <label for="" name="" id="" style="margin-left:30cm">OR</label><br>
+    <label for="" name="" id="" style="margin-left:41cm">OR</label><br>
     <label for="">ALREADY UPLOADED PHOTO:</label>
     <input type="text" name="" id="" style="margin-left:10.3cm"><br>
     <br>
